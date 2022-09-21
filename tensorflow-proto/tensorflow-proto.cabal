@@ -4,7 +4,7 @@ version:             0.3.0.0
 synopsis:            TensorFlow protocol buffers.
 description:         Please see README.md
 homepage:            https://github.com/tensorflow/haskell#readme
-license:             Apache
+license:             Apache-2.0
 license-file:        LICENSE
 author:              TensorFlow authors
 maintainer:          tensorflow-haskell@googlegroups.com
