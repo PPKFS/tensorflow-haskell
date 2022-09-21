@@ -1,3 +1,4 @@
+cabal-version:       3.0
 name:                tensorflow-proto
 version:             0.3.0.0
 synopsis:            TensorFlow protocol buffers.
@@ -10,7 +11,6 @@ maintainer:          tensorflow-haskell@googlegroups.com
 copyright:           Google Inc.
 category:            Machine Learning
 build-type:          Custom
-cabal-version:       3.6
 extra-source-files:  third_party/tensorflow/tensorflow/core/example/*.proto
                    , third_party/tensorflow/tensorflow/core/framework/*.proto
                    , third_party/tensorflow/tensorflow/core/lib/core/error_codes.proto
