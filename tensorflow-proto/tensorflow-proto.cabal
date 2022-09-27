@@ -11,6 +11,7 @@ maintainer:          tensorflow-haskell@googlegroups.com
 copyright:           Google Inc.
 category:            Machine Learning
 build-type:          Custom
+build-tool-depends: proto-lens-protoc:proto-lens-protoc
 extra-source-files:  third_party/tensorflow/tensorflow/core/example/*.proto
                    , third_party/tensorflow/tensorflow/core/framework/*.proto
                    , third_party/tensorflow/tensorflow/core/lib/core/error_codes.proto
